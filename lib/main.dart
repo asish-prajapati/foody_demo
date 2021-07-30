@@ -46,11 +46,13 @@ class _MyAppState extends State<MyApp> {
 
   List<Widget> _buildScreens() {
     return [
-      HomeScreen(),
-      ListScreen(),
-      SearchScreen(),
-      NotificationScreen(),
-      CartScreen()
+      HomeScreen(key: UniqueKey()),
+      ListScreen(
+        key: UniqueKey(),
+      ),
+      SearchScreen(key: UniqueKey()),
+      NotificationScreen(key: UniqueKey()),
+      CartScreen(key: UniqueKey())
     ];
   }
 
