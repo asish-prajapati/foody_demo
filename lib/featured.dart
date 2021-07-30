@@ -1,0 +1,174 @@
+import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
+
+class Featured extends StatelessWidget {
+  const Featured({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 240,
+      margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: <Widget>[
+          Container(
+            width: 170,
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            margin: EdgeInsets.symmetric(horizontal: 10),
+            // padding: EdgeInsets.all(5),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 130,
+                  width: 130,
+                  child: Image.asset('assets/burger.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Boneless chicken ',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                  ),
+                ),
+                Text('Taste Good ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 10,
+                        color: Colors.grey))
+              ],
+            ),
+          ),
+          Container(
+            width: 170,
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            margin: EdgeInsets.symmetric(horizontal: 10),
+            // padding: EdgeInsets.all(5),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 130,
+                  width: 130,
+                  child: Image.asset('assets/burger.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Boneless chicken ',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                  ),
+                ),
+                Text('Taste Good ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 10,
+                        color: Colors.grey))
+              ],
+            ),
+          ),
+          Container(
+            width: 170,
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            margin: EdgeInsets.symmetric(horizontal: 10),
+            // padding: EdgeInsets.all(5),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 130,
+                  width: 130,
+                  child: Image.asset('assets/burger.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Boneless chicken ',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                  ),
+                ),
+                Text('Taste Good ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 10,
+                        color: Colors.grey))
+              ],
+            ),
+          ),
+          Container(
+            width: 170,
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            margin: EdgeInsets.symmetric(horizontal: 10),
+            // padding: EdgeInsets.all(5),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 130,
+                  width: 130,
+                  child: Image.asset('assets/burger.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Boneless chicken ',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                  ),
+                ),
+                Text('Taste Good ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 10,
+                        color: Colors.grey))
+              ],
+            ),
+          ),
+          Container(
+            width: 170,
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            margin: EdgeInsets.symmetric(horizontal: 10),
+            // padding: EdgeInsets.all(5),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 130,
+                  width: 130,
+                  child: Image.asset('assets/burger.png'),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Text(
+                    'Boneless chicken ',
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+                  ),
+                ),
+                Text('Taste Good ',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 10,
+                        color: Colors.grey))
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
