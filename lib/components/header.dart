@@ -15,7 +15,12 @@ class Header extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
         child: Row(
           children: <Widget>[
-            Icon(Icons.menu),
+            Container(
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15)),
+                child: Center(child: Icon(Icons.menu))),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -30,7 +35,12 @@ class Header extends StatelessWidget {
                     style: TextStyle(fontSize: 12, color: Colors.grey))
               ],
             ),
-            Icon(Icons.supervised_user_circle)
+            Container(
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15)),
+                child: Icon(Icons.supervised_user_circle))
           ],
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
         ),

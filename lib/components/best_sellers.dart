@@ -8,7 +8,7 @@ class BestSellers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 240,
-      margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
+      margin: EdgeInsets.fromLTRB(10, 0, 0, 30),
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
